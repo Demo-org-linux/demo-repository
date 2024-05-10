@@ -13,7 +13,7 @@ helper()
 API_URL="https://api.github.com"
 
 # GitHub username and personal access token
-# Instead of hard-coding the username and token, we export them and take it from the cli
+# Instead of hard-coding the username and token we export them and take it from the cli
 #USERNAME is same as Git-hub and generate a token from github
 USERNAME=$username  
 TOKEN=$token
@@ -70,6 +70,7 @@ expected_cmd_args=2
 if [ $# -ne $expected_cmd_args ];then 
   echo "please execute the script with required cmd args"
   echo "asd"
+fi
 }
 
 # Main script
